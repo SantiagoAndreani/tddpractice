@@ -23,7 +23,6 @@ public class Money implements Expression {
     }
 
     public boolean equals(Object object) {
-
         Money money = (Money) object;
         return amount == money.amount &&
                 this.currency == money.currency;
